@@ -19,6 +19,6 @@ class Box  {
     imageMode(CENTER);
         fill("red");
       image(this.image, this.body.position.x, this.body.position.y, this.height, this.width);
-       Pop(); 
+       pop(); 
     }
 }
